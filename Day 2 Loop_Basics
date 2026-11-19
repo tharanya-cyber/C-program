@@ -1,0 +1,97 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a==b)
+    printf("equal");
+    else
+    printf("not equal");
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>0)
+    printf("number is %d:positive",a);
+    else if (a<0)
+    printf("number is %d:negative",a);
+    else
+    printf("number is 0");
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a>b)
+    printf("a is greater",a);
+    else
+    printf("b is greater",b);
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b)
+    printf("a is greatest",a);
+    else if (a>c)
+    printf("a is greatest",a);
+    else if(b>c)
+    printf("b is greatest",b);
+    else
+    printf("c is greatest",c);
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+    printf("a is even",a);
+    else
+    printf("a is odd",a);
+    
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int y;
+    scanf("%d",&y);
+    if(y%400==0 || (y%4==0 && y%100))
+    printf("leap year");
+    else
+    printf("not a leap year");
+}
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if (a%3==0)
+    printf("hi");
+    if (a%5==0)
+    printf("Hello");
+}
+
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    printf("%d\n",i);
+}
