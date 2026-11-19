@@ -1,0 +1,52 @@
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     scanf ("%d",&a);
+//       printf("%d",a);
+ 
+// }
+// #include<stdio.h>
+// int main()
+// {
+//    float a;
+//    scanf("%f", &a);
+//    printf("%.2f",a);
+// }
+// tharanya
+// #include<stdio.h>
+// int main ()
+// {
+//    printf("Tharanya");
+// }
+// slow and "steady" wins the race
+// #include<stdio.h>
+// int main ()
+// {
+//  printf("slow and \"steady\" wins the race");
+// }
+// #include<stdio.h>
+// int main ()
+// {
+//   printf("\\n");
+// }
+// #include<stdio.h>
+// int main()
+// {
+//     printf("%%%%");
+// }
+// #include<stdio.h>
+// int main ()
+// {
+//     int a, b,sum=0;
+//     scanf("%d%d",&a,&b);
+//     sum=a+b;
+//     printf("sum is : %d",sum);
+// }
+// #include<stdio.h>
+// int main()
+// {
+//     int n;
+//     scanf("%d",&n);
+//     printf("%d",n%10);
+// }
